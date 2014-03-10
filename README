@@ -1,12 +1,12 @@
-perc is a simple utility that indicates how much of a file has been processed.
+Perc is a simple utility that indicates how much of a file has been processed.
 
 It is designed for use in long running pipelines to give some clue as to how 
-far through it is. perc copies data from stdin to stdout outputting a 
+far through it is. Perc copies data from stdin to stdout outputting a 
 percentage complete and expected remaining time on stderr.
 
 Usage:
   perc [size]
 
-if size is omitted, or is not a number, perc will still copy from stdin to 
+If size is omitted, or is not a number, perc will still copy from stdin to 
 stdout, but it will not output the progress information.
 
