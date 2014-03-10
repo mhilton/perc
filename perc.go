@@ -1,3 +1,6 @@
+// Copyright 2014 Martin Hilton.
+// Licensed under the MIT License, see LICENCE file for details.
+
 package main
 
 import (
